@@ -1,0 +1,7 @@
+pageFactory\MyAccountPage.class
+com\testRunner\TestRunner.class
+pageFactory\HomePage.class
+com\stepDefinations\StepDefination.class
+pageFactory\RegisterPage.class
+com\testbase\TestBase.class
+pageFactory\LoginPage.class

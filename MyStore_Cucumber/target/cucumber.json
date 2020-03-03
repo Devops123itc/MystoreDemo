@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-03T05:27:24.209Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10140000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinations.StepDefination.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "create an account",
+        "description": "",
+        "id": "registration;create-an-account",
+        "after": [
+          {
+            "result": {
+              "duration": 920000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.stepDefinations.StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6557000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is in the register page",
+            "match": {
+              "location": "com.stepDefinations.StepDefination.user_is_in_the_register_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4813000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter following details",
+            "match": {
+              "location": "com.stepDefinations.StepDefination.user_enter_following_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3311000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicks on register",
+            "match": {
+              "location": "com.stepDefinations.StepDefination.clicks_on_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "successful registration should happen",
+            "match": {
+              "location": "com.stepDefinations.StepDefination.successful_registration_should_happen()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "In Order to create an account\nAs a user\nI want to enter my details",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/featurefile/Register.feature",
+    "tags": []
+  }
+]
